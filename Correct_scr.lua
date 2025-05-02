@@ -159,7 +159,6 @@ noButton.MouseButton1Click:Connect(function()
 		screenGui:Destroy()
 		blur:Destroy()
 		print("Launching FSOR hub")
-		-- For debugging, no loadstring executed
-		-- loadstring(game:HttpGet("https://raw.githubusercontent.com/OdiRulez/FSOR-Stuff/refs/heads/main/hub"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/OdiRulez/FSOR-Stuff/refs/heads/main/Universal_script.lua"))()
 	end)
 end)
